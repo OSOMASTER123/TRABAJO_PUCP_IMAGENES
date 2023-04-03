@@ -1,5 +1,5 @@
 IA PUCP - Diplomatura de Desarrollo de Aplicaciones de Inteligencia Artificial
-DESARROLLO EN APLICACIONES CON VISIÓN ARTIFICIAL
+DESARROLLO EN APLICACIONES CON VISIÓN ARTIFICIAL PUCP
 ============
 Implementación de un sistema de detección de cascos para seguridad en el sector industrial mediante el uso de la arquitectura YOLO y el dispositivo Jetson Nano
 ----------------------------------
