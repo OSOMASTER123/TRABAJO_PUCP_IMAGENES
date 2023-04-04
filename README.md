@@ -26,7 +26,9 @@ Para entrenar el modelo, utilizamos un conjunto de datos de Kaggle que contiene 
 Para entrenar el modelo YOLOv5, sigue estos pasos:
 
 Clona el repositorio YOLOv5 de Ultralytics:
+
 git clone https://github.com/ultralytics/yolov5.git
+
 cd yolov5
 
 Prepara tu conjunto de datos en el formato YOLOv5. Divide tus imágenes y anotaciones en carpetas train y val, y crea un archivo data.yaml que incluya la información de las rutas y las clases.
@@ -41,8 +43,11 @@ Una vez que hayas entrenado el modelo, puedes implementarlo en una Jetson Nano d
 
 Configura tu Jetson Nano y conecta una cámara compatible.
 Instala las dependencias necesarias en la Jetson Nano:
+
 pip install torch torchvision
+
 Transfiere el archivo de pesos entrenado .pt a tu Jetson Nano.
+
 Utiliza el código de detección en tiempo real proporcionado en una respuesta anterior, y modifica la ruta del archivo de pesos y las clases según sea necesario.
 
 Uso
